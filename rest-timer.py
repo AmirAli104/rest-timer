@@ -31,8 +31,6 @@ def start():
 
 window = tk.Tk()
 window.title(APP_TITLE)
-icon = ImageTk.PhotoImage(Image.open('t.ico'))
-window.iconphoto(True,icon)
 
 frm = tk.Frame(bd=5)
 minutes_lbl = tk.Label(frm,text = 'Time in minutes:')
